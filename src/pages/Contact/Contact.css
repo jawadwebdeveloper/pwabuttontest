@@ -1,0 +1,132 @@
+.location{
+  color: blue;
+  background: white;
+  padding: 25% 0% 2% 9%;
+  font-size: 2.5rem;
+  border-radius: 100px;
+  height: 80px;
+  width: 80px;
+  /* margin-right: -3%; */
+  /* margin-left: -5%; */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+}
+.locationn{
+  color: blue;
+  background: white;
+  padding: 13% 0% 2% 5%;
+  font-size: 2.5rem;
+  border-radius: 100px;
+  height: 80px;
+  width: 110px;
+  margin-left: 8%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+}
+.emailo{
+margin-left: -40%;
+}
+.locationon{
+  color: blue;
+  background: white;
+  padding: 18% 0% 2% 1%;
+  font-size: 2.5rem;
+  border-radius: 100px;
+  height: 80px;
+  width: 90px;
+  margin-left: 10%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+}
+.contablet{
+margin-left: -170%;
+}
+
+.contacticonsset{
+display: flex;
+margin-top: 5%;
+}
+.fottercontact{
+font-size: 1rem;
+font-weight: 100;
+}
+.linkdinn{
+  font-size: 2rem;
+  padding: 0% 1% 0% 1%;
+  margin-bottom: 4%;
+}
+@media (max-width: 767px) {
+  .example {
+    background: green;
+  }
+  .fottercontact{
+    font-size: 1rem;
+  }
+  .footericone{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .location{
+        
+    padding: 14% 0% 2% 6%;
+    margin-top: 2%;
+    box-shadow: none;
+  }
+  .locationn{
+  
+    margin-left: 0%;
+    padding: 17% 0% 2% 5%;
+    margin-right: 8%;
+    box-shadow: none;
+  }
+  .locationon{
+    padding: 20% 0% 2% 0%;
+    font-size: 3rem;
+    margin-left: -2%;
+    box-shadow: none;
+    margin-right: -8%;
+}
+  .contacticonsset{
+    display: inline;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .example {
+    background: blue;
+  }
+  .conion{
+    font-size: 1rem;
+  }
+  .location{
+        
+    padding: 25% 0% 2% 6%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    box-shadow: none;
+    margin-right: -25%;
+  }
+  .locationn{
+  
+    margin-left: -3%;
+    padding: 14% 0% 0% 0%;
+    margin-right: -32%;
+    box-shadow: none;
+    font-size: 1.5rem;
+
+  }
+  .locationon{
+    padding: 25% 0% 2% 0%;
+    font-size: 3rem;
+    box-shadow: none;
+    font-size: 2rem;
+    margin-left: -50%;
+    margin-right: -14%;
+}
+  
+}
+
+@media (min-width: 992px) {
+
+  .example {
+    background: red;
+  }
+}

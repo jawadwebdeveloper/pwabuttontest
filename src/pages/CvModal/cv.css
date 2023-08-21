@@ -1,0 +1,62 @@
+.bbg:hover{
+    color: blue;
+    cursor: pointer;
+   }
+.bbg{
+    font-size: 1.3rem;
+}
+.btnresume{
+    background: black;
+    color: white;
+    padding: 1% 1% 1% 1%;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btnresume:hover{
+    background: none;
+    border: 1px solid black;
+    color: black;
+
+}
+
+
+
+/* Styles for screens smaller than 768 pixels */
+@media (max-width: 767px) {
+    .example {
+      background: green;
+      /* display: none; */
+    }
+    .abou4{
+        margin-left: -98%;
+    }
+    #cvimg{
+        width: 100%;
+        height: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+  
+    .example {
+      background: blue;
+      /* display: none; */
+    }
+    .abou4{
+        margin-left: -98%;
+    }
+    #cvimg{
+        width: 100%;
+        height: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+  
+    .example {
+      background: red;
+      /* display: none; */
+    }
+  }
+  

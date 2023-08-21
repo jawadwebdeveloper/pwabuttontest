@@ -1,0 +1,22 @@
+.header{
+    background:white;
+    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1); */
+    /* position: relative; */
+    
+}
+.hearder-bg{
+    background: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+}
+.navbarr{
+      padding: 1% 1.5% 1% 2%;
+    }
+.me{
+        
+    font-size: 1.3rem;
+    font-family: "robot", sans-serif;
+}
+.bb:hover{
+ color: blue;
+ cursor: pointer;
+}
