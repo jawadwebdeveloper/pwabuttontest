@@ -12,7 +12,7 @@ import Loading from './Loading'
 import Logo from './Logo'
 function Home() {
   return (
-    <div id='hoom'>
+    <>
     <div className='main bg-light container-fluid' id='homemain'>
       <div className="row">
         <div className="col-sm-6 ">
@@ -65,7 +65,7 @@ function Home() {
       </p>
     </div>
     
-    </div>
+    </>
     
   )
 }
