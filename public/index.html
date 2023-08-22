@@ -33,11 +33,24 @@
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/src/service-worker.js')
+          .then(function(registration) {
+            console.log('Service Worker registered with scope:', registration.scope);
+          })
+          .catch(function(error) {
+            console.log('Service Worker registration failed:', error);
+          });
+      }
+      </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <div class="install-banner">
+      <button id="install-button">Install App</button>
+  </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -49,23 +62,20 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
+
     <script>
-      // if ('serviceWorker' in navigator) {
-      //     navigator.serviceWorker.register('../src/service-worker.js')
-      //         .then(registration => {
-      //             console.log('Service worker registered:', registration);
-      //         })
-      //         .catch(error => {
-      //             console.log('Service worker registration failed:', error);
-      //         });
-      // }
-      if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.getRegistrations().then(registrations => {
-        for (const registration of registrations) {
-            registration.unregister();
-        }
+      // Check if the event is available
+window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault(); // Prevent the default installation prompt
+    const installButton = document.getElementById('install-button');
+    installButton.style.display = 'block'; // Show the button
+
+    installButton.addEventListener('click', () => {
+        event.prompt(); // Show the installation prompt
+        installButton.style.display = 'none'; // Hide the button after clicking
     });
-}
-  </script>
+});
+
+    </script>
   </body>
 </html>

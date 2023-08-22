@@ -15,3 +15,38 @@ body{
   background: lightgrey;
   border-radius: 6px;
 }
+
+
+
+/* pwa */
+/* Default styles for the install banner */
+.install-banner {
+  display: none; /* Hide the banner by default */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styles for the button inside the banner */
+#install-button {
+  background-color: white;
+  color: #007bff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .install-banner {
+      display: block; /* Show the banner on mobile screens */
+  }
+}
+
+/* pwa */
