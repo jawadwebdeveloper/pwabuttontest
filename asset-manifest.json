@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pwabuttontest/static/css/main.15d0a08d.css",
-    "main.js": "/pwabuttontest/static/js/main.e262c206.js",
+    "main.js": "/pwabuttontest/static/js/main.c623f7eb.js",
     "static/js/787.c4e7f8f9.chunk.js": "/pwabuttontest/static/js/787.c4e7f8f9.chunk.js",
     "static/media/p2.png": "/pwabuttontest/static/media/p2.9119310bcd6771530578.png",
     "static/media/p4.png": "/pwabuttontest/static/media/p4.c78c61f03855cb3684cd.png",
@@ -21,11 +21,11 @@
     "static/media/reactjs.png": "/pwabuttontest/static/media/reactjs.c095bde5192319797a5f.png",
     "index.html": "/pwabuttontest/index.html",
     "main.15d0a08d.css.map": "/pwabuttontest/static/css/main.15d0a08d.css.map",
-    "main.e262c206.js.map": "/pwabuttontest/static/js/main.e262c206.js.map",
+    "main.c623f7eb.js.map": "/pwabuttontest/static/js/main.c623f7eb.js.map",
     "787.c4e7f8f9.chunk.js.map": "/pwabuttontest/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15d0a08d.css",
-    "static/js/main.e262c206.js"
+    "static/js/main.c623f7eb.js"
   ]
 }
