@@ -12,10 +12,10 @@ function Routeing() {
     
       <Navebar/> 
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
-        <Route path='/contact' element={<Contact/>}></Route>
-        <Route path='/projects' element={<Projects/>}></Route>
-        <Route path='/about' element={<About/>}></Route>
+        <Route path='#homemain' element={<Home/>}></Route>
+        <Route path='#contactt' element={<Contact/>}></Route>
+        <Route path='#Projectss' element={<Projects/>}></Route>
+        <Route path='#aboutsection' element={<About/>}></Route>
         {/* <Route path='/skills' element={<Skills/>}></Route>  */}
         {/* <Route path='/login' element={<Login/>}></Route>
         <Route path='/register' element={<Register/>}></Route>

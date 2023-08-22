@@ -50,7 +50,8 @@ window.addEventListener('scroll', changecolor);
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}><b>Home</b>
                 </Nav.Link> */}
-                <Nav.Link as={Link} to={"/"} style={{color:"black"}} ><b className='bb'>Home</b></Nav.Link>
+                <Nav.Link href='#homemain' style={{color:"black"}} ><b className='bb'>Home</b></Nav.Link>
+                {/* <Nav.Link as={Link} to={"/"} style={{color:"black"}} ><b className='bb'>Home</b></Nav.Link> */}
                 {/* <Nav.Link href='#homemain' style={{color:"black"}}> <b className='bb'>Home</b> </Nav.Link> */}
                 <Nav.Link href='#aboutsection' style={{color:"black"}}> <b className='bb'>About</b> </Nav.Link>
                 <Nav.Link href='#Projectss' style={{color:"black"}}> <b className='bb'>Project</b> </Nav.Link>
